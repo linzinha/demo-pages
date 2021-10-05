@@ -39,4 +39,394 @@ body
         p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       article 
         h2 Survey Here!
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        .main-block
+      form(action='/')
+        h1 Course Evaluation Survey
+        h4 COURSE
+        input(type='text')
+        h4 INSTRUCTOR
+        input(type='text')
+        h4 TERM AND YEAR
+        input(type='text')
+        h5 Teaching approaches
+        div
+          h4 Untitled
+          table
+            tbody
+              tr
+                th.first-col
+                th Strongly Disagree
+                th Disagree
+                th Neutral
+                th Agree
+                th Strongly Agree
+              tr
+                td.first-col 1. The instructor stimulated my interest in the subject.
+                td
+                  input(type='radio' value='none' name='interest')
+                td
+                  input(type='radio' value='none' name='interest')
+                td
+                  input(type='radio' value='none' name='interest')
+                td
+                  input(type='radio' value='none' name='interest')
+                td
+                  input(type='radio' value='none' name='interest')
+              tr
+                td.first-col 2. The instructor managed classroom time and pace well.
+                td
+                  input(type='radio' value='none' name='managed')
+                td
+                  input(type='radio' value='none' name='managed')
+                td
+                  input(type='radio' value='none' name='managed')
+                td
+                  input(type='radio' value='none' name='managed')
+                td
+                  input(type='radio' value='none' name='managed')
+              tr
+                td.first-col 3. The instructor was organized and prepared for every class
+                td
+                  input(type='radio' value='none' name='organized')
+                td
+                  input(type='radio' value='none' name='organized')
+                td
+                  input(type='radio' value='none' name='organized')
+                td
+                  input(type='radio' value='none' name='organized')
+                td
+                  input(type='radio' value='none' name='organized')
+              tr
+                td.first-col 4. The instructor encouraged discussions and responded to questions.
+                td
+                  input(type='radio' value='none' name='encouraged')
+                td
+                  input(type='radio' value='none' name='encouraged')
+                td
+                  input(type='radio' value='none' name='encouraged')
+                td
+                  input(type='radio' value='none' name='encouraged')
+                td
+                  input(type='radio' value='none' name='encouraged')
+              tr
+                td.first-col 5. The instructor demonstrated in-depth knowledge of the subject.
+                td
+                  input(type='radio' value='none' name='demonstrated')
+                td
+                  input(type='radio' value='none' name='demonstrated')
+                td
+                  input(type='radio' value='none' name='demonstrated')
+                td
+                  input(type='radio' value='none' name='demonstrated')
+                td
+                  input(type='radio' value='none' name='demonstrated')
+              tr
+                td.first-col 6. The instructor appeared enthusiastic and interested.
+                td
+                  input(type='radio' value='none' name='appeared')
+                td
+                  input(type='radio' value='none' name='appeared')
+                td
+                  input(type='radio' value='none' name='appeared')
+                td
+                  input(type='radio' value='none' name='appeared')
+                td
+                  input(type='radio' value='none' name='appeared')
+              tr
+                td.first-col
+                  | 7. The instructor used a variety of instructional methods to reach the course objectives (e.g. group discussions, student presentations, etc.)
+                td
+                  input(type='radio' value='none' name='used')
+                td
+                  input(type='radio' value='none' name='used')
+                td
+                  input(type='radio' value='none' name='used')
+                td
+                  input(type='radio' value='none' name='used')
+                td
+                  input(type='radio' value='none' name='used')
+              tr
+                td.first-col 8. The instructor challenged students to do their best work.
+                td
+                  input(type='radio' value='none' name='challenged')
+                td
+                  input(type='radio' value='none' name='challenged')
+                td
+                  input(type='radio' value='none' name='challenged')
+                td
+                  input(type='radio' value='none' name='challenged')
+                td
+                  input(type='radio' value='none' name='challenged')
+        p.question 9. The instructor was accessible outside of class.
+        .question-answer
+          label
+            input(type='radio' value='none' name='accessible')
+            |  yes
+          label
+            input(type='radio' value='none' name='accessible')
+            |  no
+        p.question 10. Did the instructor actively attempt to prevent cheating in this course?
+        .question-answer
+          label
+            input(type='radio' value='none' name='actively')
+            |  yes
+          label
+            input(type='radio' value='none' name='actively')
+            |  no
+        p.comments Comments
+        textarea(rows='5')
+        h5 Feedback and assessment
+        div
+          h4 Untitled
+          table
+            tbody
+              tr
+                th.first-col
+                th Strongly Disagree
+                th Disagree
+                th Neutral
+                th Agree
+                th Strongly Agree
+              tr
+                td.first-col 11. Information about the assessment was communicated clearly
+                td
+                  input(type='radio' value='none' name='clearly')
+                td
+                  input(type='radio' value='none' name='clearly')
+                td
+                  input(type='radio' value='none' name='clearly')
+                td
+                  input(type='radio' value='none' name='clearly')
+                td
+                  input(type='radio' value='none' name='clearly')
+              tr
+                td.first-col 12. Feedback was provided within the stated timeframe.
+                td
+                  input(type='radio' value='none' name='provided')
+                td
+                  input(type='radio' value='none' name='provided')
+                td
+                  input(type='radio' value='none' name='provided')
+                td
+                  input(type='radio' value='none' name='provided')
+                td
+                  input(type='radio' value='none' name='provided')
+              tr
+                td.first-col
+                  | 13. Feedback showed how to improve my work (e .g. corrections including comments).
+                td
+                  input(type='radio' value='none' name='showed')
+                td
+                  input(type='radio' value='none' name='showed')
+                td
+                  input(type='radio' value='none' name='showed')
+                td
+                  input(type='radio' value='none' name='showed')
+                td
+                  input(type='radio' value='none' name='showed')
+        p.comments Comments
+        textarea(rows='5')
+        h5 Resources and administration
+        div
+          h4 Untitled
+          table
+            tbody
+              tr
+                th.first-col
+                th Strongly Disagree
+                th Disagree
+                th Neutral
+                th Agree
+                th Strongly Agree
+              tr
+                td.first-col 14. The course was supported by adequate library resources.
+                td
+                  input(type='radio' value='none' name='supported')
+                td
+                  input(type='radio' value='none' name='supported')
+                td
+                  input(type='radio' value='none' name='supported')
+                td
+                  input(type='radio' value='none' name='supported')
+                td
+                  input(type='radio' value='none' name='supported')
+              tr
+                td.first-col 15. Blackboard resources for the course were useful.
+                td
+                  input(type='radio' value='none' name='resources')
+                td
+                  input(type='radio' value='none' name='resources')
+                td
+                  input(type='radio' value='none' name='resources')
+                td
+                  input(type='radio' value='none' name='resources')
+                td
+                  input(type='radio' value='none' name='resources')
+              tr
+                td.first-col 16. Instructor gave guidance on where to find resources.
+                td
+                  input(type='radio' value='none' name='guidance')
+                td
+                  input(type='radio' value='none' name='guidance')
+                td
+                  input(type='radio' value='none' name='guidance')
+                td
+                  input(type='radio' value='none' name='guidance')
+                td
+                  input(type='radio' value='none' name='guidance')
+        p.comments Comments
+        textarea(rows='5')
+        h5 Additional question
+        .additional-question
+          h4 Untitled
+          table
+            tbody
+              tr
+                th.first-col
+                th Yes
+                th No
+              tr
+                td.first-col 17. The syllabus was explained at the beginning of the course.
+                td
+                  input(type='radio' value='none' name='syllabus')
+                td
+                  input(type='radio' value='none' name='syllabus')
+              tr
+                td.first-col 18. The course was delivered as outlined in the syllabus.
+                td
+                  input(type='radio' value='none' name='delivered')
+                td
+                  input(type='radio' value='none' name='delivered')
+              tr
+                td.first-col 19. Instructor explained the grading criteria of the course.
+                td
+                  input(type='radio' value='none' name='criteria')
+                td
+                  input(type='radio' value='none' name='criteria')
+              tr
+                td.first-col 20. Exams related to the course learning outcomes.
+                td
+                  input(type='radio' value='none' name='exams')
+                td
+                  input(type='radio' value='none' name='exams')
+              tr
+                td.first-col 21. Projects/ assignments related to the course learning outcomes.
+                td
+                  input(type='radio' value='none' name='assignments')
+                td
+                  input(type='radio' value='none' name='assignments')
+        p.comments Comments
+        textarea(rows='5')
+        h5 Overall experience
+        p.question 22. This was a worthwhile class
+        .question-answer
+          label
+            input(type='radio' value='none' name='worthwhile')
+            |  yes
+          label
+            input(type='radio' value='none' name='worthwhile')
+            |  no
+        p.question
+          | 23. Would you recommend this course to a fellow
+          | student?
+        .question-answer
+          label
+            input(type='radio' value='none' name='recommend')
+            |  yes
+          label
+            input(type='radio' value='none' name='recommend')
+            |  no
+        div
+          h4 Untitled
+          table
+            tbody
+              tr
+                th.first-col
+                th Poor
+                th Fair
+                th Good
+                th Very good
+                th Excellent
+              tr
+                td.first-col 24. Overall, how do you rate your experience in this course?
+                td
+                  input(type='radio' value='none' name='rate')
+                td
+                  input(type='radio' value='none' name='rate')
+                td
+                  input(type='radio' value='none' name='rate')
+                td
+                  input(type='radio' value='none' name='rate')
+                td
+                  input(type='radio' value='none' name='rate')
+        .course-rate
+          h4 Untitled
+          table
+            tbody
+              tr
+                th.first-col
+                th A:0 – 4h
+                th B:5 – 8h
+                th C:9 – 12h
+                th C:9 – 12h
+              tr
+                td.first-col 25. Overall, how do you rate your experience in this course?
+                td
+                  input(type='radio' value='none' name='name')
+                td
+                  input(type='radio' value='none' name='name')
+                td
+                  input(type='radio' value='none' name='name')
+                td
+                  input(type='radio' value='none' name='name')
+        p.comments Comments
+        textarea(rows='5')
+        h5 Student self evaluation
+        div
+          h4 Untitled
+          table
+            tbody
+              tr
+                th.first-col
+                th Strongly Disagree
+                th Disagree
+                th Neutral
+                th Agree
+                th Strongly Agree
+              tr
+                td.first-col 26. I contributed constructively during in-class activities
+                td
+                  input(type='radio' value='none' name='contributed')
+                td
+                  input(type='radio' value='none' name='contributed')
+                td
+                  input(type='radio' value='none' name='contributed')
+                td
+                  input(type='radio' value='none' name='contributed')
+                td
+                  input(type='radio' value='none' name='contributed')
+              tr
+                td.first-col 27. I feel I am achieving the learning outcomes.
+                td
+                  input(type='radio' value='none' name='feel')
+                td
+                  input(type='radio' value='none' name='feel')
+                td
+                  input(type='radio' value='none' name='feel')
+                td
+                  input(type='radio' value='none' name='feel')
+                td
+                  input(type='radio' value='none' name='feel')
+        p.comments Comments
+        textarea(rows='5')
+        h5 Comments on strengths and ways of improvement
+        p.comments What changes would you recommend to improve this course?
+        textarea(rows='5')
+        p.comments What did you like best about your instructors teaching?
+        textarea(rows='5')
+        p.comments What did you like least about your instructor’s teaching?
+        textarea(rows='5')
+        p.comments Any further, constructive comment
+        textarea(rows='5')
+        .btn-block
+          button(type='submit' href='/') Send
